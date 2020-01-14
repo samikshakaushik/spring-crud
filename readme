@@ -1,1 +1,12 @@
 This is a simple CRUD application which uses spring boot and hibernate.
+
+Model class has the metadata of class (all getters,setters and variables)
+
+Any api hit from browser 
+hit to the controller class
+controller class has the api mapped to methods written in service class
+service implementation class has the method implementations
+
+Dao class has the Data Access Objects
+Declaration of all the database related queries and methods to store and retrieve objects created
+Daoimpl contains definitions of all dao methods
